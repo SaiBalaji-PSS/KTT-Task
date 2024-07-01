@@ -227,6 +227,7 @@
                     </view>
                     <connections>
                         <outlet property="currentUserLbl" destination="sr3-gt-i2t" id="Vng-VT-N8y"/>
+                        <outlet property="tableView" destination="PoX-8v-2c5" id="CTS-fQ-Aso"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dE8-xO-g1J" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

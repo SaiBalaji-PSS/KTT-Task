@@ -20,7 +20,8 @@ class UserModel: Object{
 
 class Coordinates: Object{
     @Persisted(primaryKey: true) var coordinateId: ObjectId
-    @Persisted var userName: String = ""
+   // @Persisted var userName: String = ""
+    @Persisted var email: String = ""
     @Persisted var latitude: String = ""
     @Persisted var longitude: String = ""
     

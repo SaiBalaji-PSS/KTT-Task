@@ -68,6 +68,16 @@ class LocationManager: NSObject{
        // print("Timer value is \(secondsPassed)")
     }
     
+    func resetTimer(){
+        secondsPassed = 0
+        self.startTimer()
+        
+    }
+    
+    func stopTimer(){
+        self.timer?.invalidate()
+        self.manager.stopUpdatingLocation()
+    }
     func configureLocationManager(){
         
         let status = manager.authorizationStatus
