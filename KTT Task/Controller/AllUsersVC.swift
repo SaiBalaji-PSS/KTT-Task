@@ -8,7 +8,7 @@
 import UIKit
 
 protocol AllUseresDelegate: AnyObject{
-    func didSelectUser(currentUser: CurrentUser)
+    func didSelectUser(currentUser: UserModel)
 }
 class AllUsersVC: UIViewController {
     weak var delegate: AllUseresDelegate?
@@ -51,7 +51,7 @@ extension AllUsersVC: UITableViewDelegate,UITableViewDataSource{
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
       
-        self.delegate?.didSelectUser(currentUser: CurrentUser(userName: self.userList[indexPath.row].userName, email:  self.userList[indexPath.row].email))
+        self.delegate?.didSelectUser(currentUser: self.userList[indexPath.row])
         self.dismiss(animated: true)
     }
 }

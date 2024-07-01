@@ -6,10 +6,14 @@
 //
 
 import UIKit
+import CoreLocation
 
 class HomeViewController: UIViewController {
 
     @IBOutlet weak var currentUserLbl: UILabel!
+    private var selectedCurrentUser: UserModel?
+    private var userCoordinates = [Coordinates]()
+    private var locationManager = LocationManager()
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,7 +24,11 @@ class HomeViewController: UIViewController {
     func configureUI(){
         if let currentUser = AuthManager.shared.readFromUserDefault(type: CurrentUser.self){
             self.currentUserLbl.text = currentUser.email
+            
         }
+        locationManager.delegate = self
+        locationManager.configureLocationManager()
+      
     }
     
     @IBAction func signOutBtnPressed(_ sender: Any) {
@@ -38,9 +46,41 @@ class HomeViewController: UIViewController {
 
 
 extension HomeViewController: AllUseresDelegate{
-    func didSelectUser(currentUser: CurrentUser) {
+    func didSelectUser(currentUser: UserModel) {
         self.currentUserLbl.text = currentUser.email
         AuthManager.shared.clearUserDefault()
-        AuthManager.shared.saveToUserDefault(object: currentUser)
+        AuthManager.shared.saveToUserDefault(object: CurrentUser(userName: currentUser.userName, email: currentUser.email))
+        self.selectedCurrentUser = currentUser
     }
+}
+
+extension HomeViewController: LocationManagerDelegate{
+    func didUpdateLocation(location: CLLocation) {
+            print(location)
+        if let selectedCurrentUser{
+            let coordinateToBeSaved = Coordinates()
+            coordinateToBeSaved.latitude = "\(location.coordinate.latitude)"
+            coordinateToBeSaved.longitude = "\(location.coordinate.longitude)"
+           
+            do{
+                try RealmService.shared.realmFile?.write({
+                    selectedCurrentUser.coordinates.append(coordinateToBeSaved)
+                })
+            }
+            catch{
+                print(error)
+            }
+           
+        }
+     
+            
+        
+       
+    }
+    
+    func didFailToUpdateLocation(error: Error?) {
+        
+    }
+    
+    
 }

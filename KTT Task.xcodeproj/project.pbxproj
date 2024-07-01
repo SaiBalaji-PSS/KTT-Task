@@ -23,6 +23,8 @@
 		E4F5BFC92C324EED001453E1 /* AllUsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F5BFC82C324EED001453E1 /* AllUsersVC.swift */; };
 		E4F5BFCB2C325063001453E1 /* AppSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F5BFCA2C325063001453E1 /* AppSession.swift */; };
 		E4F5BFCD2C325350001453E1 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F5BFCC2C325350001453E1 /* AuthManager.swift */; };
+		E4F5BFCF2C326CF1001453E1 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F5BFCE2C326CF1001453E1 /* LocationManager.swift */; };
+		E4F5BFD12C32855A001453E1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F5BFD02C32855A001453E1 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +45,8 @@
 		E4F5BFC82C324EED001453E1 /* AllUsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllUsersVC.swift; sourceTree = "<group>"; };
 		E4F5BFCA2C325063001453E1 /* AppSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSession.swift; sourceTree = "<group>"; };
 		E4F5BFCC2C325350001453E1 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		E4F5BFCE2C326CF1001453E1 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		E4F5BFD02C32855A001453E1 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +115,7 @@
 			children = (
 				E447997C2C31384A00CA3EB9 /* SignUpViewModel.swift */,
 				E4F5BFC42C3245E0001453E1 /* SignInViewModel.swift */,
+				E4F5BFD02C32855A001453E1 /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 				E44799812C3139C900CA3EB9 /* RealmService.swift */,
 				E4F5BFCA2C325063001453E1 /* AppSession.swift */,
 				E4F5BFCC2C325350001453E1 /* AuthManager.swift */,
+				E4F5BFCE2C326CF1001453E1 /* LocationManager.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -222,9 +228,11 @@
 				E4F5BFCB2C325063001453E1 /* AppSession.swift in Sources */,
 				E4F5BFC52C3245E0001453E1 /* SignInViewModel.swift in Sources */,
 				E4F5BFC72C324D55001453E1 /* HomeViewController.swift in Sources */,
+				E4F5BFD12C32855A001453E1 /* HomeViewModel.swift in Sources */,
 				E44799602C3134C800CA3EB9 /* AppDelegate.swift in Sources */,
 				E447997F2C31386E00CA3EB9 /* UserModel.swift in Sources */,
 				E44799622C3134C800CA3EB9 /* SceneDelegate.swift in Sources */,
+				E4F5BFCF2C326CF1001453E1 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +386,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "KTT Task/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We want to acess your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We want to access your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -405,6 +415,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "KTT Task/Info.plist";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We want to acess your location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We want to access your location";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
