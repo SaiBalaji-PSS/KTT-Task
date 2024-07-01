@@ -33,6 +33,11 @@ class SignUpVC: UIViewController {
             else{
                 self.showAlert(title: "Info", message: "Registration sucess") {
                     //navigate to home
+                    if let userName = self.userNameTextField.text, let email = self.emailTextField.text{
+                        AuthManager.shared.saveToUserDefault(object: CurrentUser(userName: userName, email: email))
+                        AppSession.shared.showMainTabbar()
+                    }
+                  
                 }
             }
             

@@ -24,10 +24,16 @@ class ViewController: UIViewController {
     func setupBinding(){
         vm.didSignInSucccess = { error, message in
             if let error{
-                self.showAlert(title: "Info", message: error.localizedDescription)
+                self.showAlert(title: "Info", message: error.localizedDescription, onCompletion: {
+                    
+                })
             }
             else{
-                self.showAlert(title: "Info", message: message)
+                self.showAlert(title: "Info", message: message,onCompletion: {
+                    //navigate to HomeScreen
+                    AppSession.shared.showMainTabbar()
+                })
+               
             }
             
             
@@ -47,9 +53,11 @@ class ViewController: UIViewController {
         }
     }
     
-    func showAlert(title: String,message: String){
+    func showAlert(title: String,message: String,onCompletion:@escaping()->(Void)){
         let avc = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        avc.addAction(UIAlertAction(title: "Ok", style: .default))
+        avc.addAction(UIAlertAction(title: "Ok", style: .default,handler: { _ in
+            onCompletion()
+        }))
         self.present(avc, animated: true)
     }
 }

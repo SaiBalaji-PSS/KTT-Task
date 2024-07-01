@@ -12,6 +12,7 @@ import Combine
 enum RegistrationError: Error{
     case userAlreadyExist
     case userDoesNotExist
+    case invalidEmailId
 }
 extension RegistrationError: LocalizedError{
     var errorDescription: String?{
@@ -19,7 +20,9 @@ extension RegistrationError: LocalizedError{
         case .userAlreadyExist:
             return "The given account already exist please Login using that account."
         case .userDoesNotExist:
-            return "The gives email or password is wrong."
+            return "The given account does not exist"
+        case .invalidEmailId:
+            return "The given emailId is invalid"
 
         }
         

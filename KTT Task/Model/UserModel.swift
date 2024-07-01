@@ -25,3 +25,10 @@ class Coordinates: Object{
     @Persisted var longitude: String = ""
     
 }
+
+
+struct CurrentUser: Codable{
+    let userName: String
+    let email: String
+    
+}

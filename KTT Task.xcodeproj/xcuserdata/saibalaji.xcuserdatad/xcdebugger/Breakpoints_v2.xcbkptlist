@@ -7,69 +7,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "CF66AB0B-5D66-45E9-AD48-B0CD32841FF7"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KTT Task/ViewModel/SignInViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "20"
-            endingLineNumber = "20"
-            landmarkName = "signInUser(email:password:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "CF66AB0B-5D66-45E9-AD48-B0CD32841FF7 - 9e7bbfa84290fb45"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;RealmSwift.Results&lt;KTT_Task.UserModel&gt;&gt;) -&gt; () in KTT_Task.SignInViewModel.signInUser(email: Swift.String, password: Swift.String) -&gt; ()"
-                  moduleName = "KTT Task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/ViewModel/SignInViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "408">
-               </Location>
-               <Location
-                  uuid = "CF66AB0B-5D66-45E9-AD48-B0CD32841FF7 - 9e7bbfa84290fb45"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;RealmSwift.Results&lt;KTT_Task.UserModel&gt;&gt;) -&gt; () in KTT_Task.SignInViewModel.signInUser(email: Swift.String, password: Swift.String) -&gt; ()"
-                  moduleName = "KTT Task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/ViewModel/SignInViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "368">
-               </Location>
-               <Location
-                  uuid = "CF66AB0B-5D66-45E9-AD48-B0CD32841FF7 - 9e7bbfa84290fb45"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;RealmSwift.Results&lt;KTT_Task.UserModel&gt;&gt;) -&gt; () in KTT_Task.SignInViewModel.signInUser(email: Swift.String, password: Swift.String) -&gt; ()"
-                  moduleName = "KTT Task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/ViewModel/SignInViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "20"
-                  endingLineNumber = "20"
-                  offsetFromSymbolStart = "388">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "D8BD395A-D532-4329-8973-DE9200302B5D"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -81,6 +18,38 @@
             endingLineNumber = "15"
             landmarkName = "signInUser(email:password:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D8BD395A-D532-4329-8973-DE9200302B5D - 9e7bbfa84290fbe0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;RealmSwift.Results&lt;KTT_Task.UserModel&gt;&gt;) -&gt; () in KTT_Task.SignInViewModel.signInUser(email: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "KTT Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/ViewModel/SignInViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "D8BD395A-D532-4329-8973-DE9200302B5D - 9e7bbfa84290fbe0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;RealmSwift.Results&lt;KTT_Task.UserModel&gt;&gt;) -&gt; () in KTT_Task.SignInViewModel.signInUser(email: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "KTT Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/ViewModel/SignInViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "124">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -271,6 +240,21 @@
                   endingLineNumber = "17"
                   offsetFromSymbolStart = "88">
                </Location>
+               <Location
+                  uuid = "D48E74C9-E2AA-44B1-991C-95299EF595F1 - 9e7bbfa84290fbc1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;RealmSwift.Results&lt;KTT_Task.UserModel&gt;&gt;) -&gt; () in KTT_Task.SignInViewModel.signInUser(email: Swift.String, password: Swift.String) -&gt; ()"
+                  moduleName = "KTT Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/ViewModel/SignInViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "180">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
@@ -284,8 +268,8 @@
             filePath = "KTT Task/ViewModel/SignInViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "signInUser(email:password:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -302,6 +286,134 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "17"
             endingLineNumber = "17"
+            landmarkName = "signInUser(email:password:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "784770B5-2B34-4B61-B337-EFF9D01FBCE7"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KTT Task/SceneDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "scene(_:willConnectTo:options:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AA8CC096-5F20-44E6-B4F2-C3BB4D65EFE4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KTT Task/Controller/SignUpVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "setupBinding()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AA8CC096-5F20-44E6-B4F2-C3BB4D65EFE4 - 6384c0c3d4e745c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Error&gt;, Swift.Optional&lt;KTT_Task.UserModel&gt;) -&gt; () in KTT_Task.SignUpVC.setupBinding() -&gt; ()"
+                  moduleName = "KTT Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/Controller/SignUpVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "240">
+               </Location>
+               <Location
+                  uuid = "AA8CC096-5F20-44E6-B4F2-C3BB4D65EFE4 - 2b5bd8530888bf32"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #1 (Swift.Optional&lt;Swift.Error&gt;, Swift.Optional&lt;KTT_Task.UserModel&gt;) -&gt; () in KTT_Task.SignUpVC.setupBinding() -&gt; ()"
+                  moduleName = "KTT Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/Controller/SignUpVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "828">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1CF5375B-0EF2-4322-9CEC-35952AB19DDB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KTT Task/Service/AuthManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "saveToUserDefault(object:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7C6ABDEE-54BF-4533-9F29-210651DB160D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KTT Task/Service/AppSession.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "start(window:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A7E24B66-77CE-4366-ABAC-953AE97FBC10"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KTT Task/Service/AppSession.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "start(window:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "09C2A613-FF95-43A1-AE39-1A7126EBF476"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KTT Task/ViewModel/SignInViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
             landmarkName = "signInUser(email:password:)"
             landmarkType = "7">
          </BreakpointContent>
