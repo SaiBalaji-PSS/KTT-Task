@@ -11,6 +11,8 @@
 		E43240CD2C33A3150057B9AF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43240CC2C33A3150057B9AF /* MapViewController.swift */; };
 		E43240CF2C33A3290057B9AF /* CustomMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43240CE2C33A3290057B9AF /* CustomMapView.swift */; };
 		E43240D12C33B1E30057B9AF /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43240D02C33B1E30057B9AF /* MapViewModel.swift */; };
+		E43240D22C34038F0057B9AF /* RealmSwift in Embed Frameworks */ = {isa = PBXBuildFile; productRef = E44799742C3134F100CA3EB9 /* RealmSwift */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		E43240D52C3404A90057B9AF /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43240D42C3404A90057B9AF /* BaseViewController.swift */; };
 		E44799602C3134C800CA3EB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447995F2C3134C800CA3EB9 /* AppDelegate.swift */; };
 		E44799622C3134C800CA3EB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44799612C3134C800CA3EB9 /* SceneDelegate.swift */; };
 		E44799642C3134C800CA3EB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44799632C3134C800CA3EB9 /* ViewController.swift */; };
@@ -31,10 +33,25 @@
 		E4F5BFD12C32855A001453E1 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F5BFD02C32855A001453E1 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		E43240D32C34038F0057B9AF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E43240D22C34038F0057B9AF /* RealmSwift in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		E43240CC2C33A3150057B9AF /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		E43240CE2C33A3290057B9AF /* CustomMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMapView.swift; sourceTree = "<group>"; };
 		E43240D02C33B1E30057B9AF /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		E43240D42C3404A90057B9AF /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		E447995C2C3134C800CA3EB9 /* KTT Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KTT Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E447995F2C3134C800CA3EB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E44799612C3134C800CA3EB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -138,6 +155,7 @@
 				E4F5BFC62C324D55001453E1 /* HomeViewController.swift */,
 				E4F5BFC82C324EED001453E1 /* AllUsersVC.swift */,
 				E43240CC2C33A3150057B9AF /* MapViewController.swift */,
+				E43240D42C3404A90057B9AF /* BaseViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -163,6 +181,7 @@
 				E44799582C3134C800CA3EB9 /* Sources */,
 				E44799592C3134C800CA3EB9 /* Frameworks */,
 				E447995A2C3134C800CA3EB9 /* Resources */,
+				E43240D32C34038F0057B9AF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,6 +256,7 @@
 				E43240CF2C33A3290057B9AF /* CustomMapView.swift in Sources */,
 				E44799642C3134C800CA3EB9 /* ViewController.swift in Sources */,
 				E44799822C3139C900CA3EB9 /* RealmService.swift in Sources */,
+				E43240D52C3404A90057B9AF /* BaseViewController.swift in Sources */,
 				E4F5BFC92C324EED001453E1 /* AllUsersVC.swift in Sources */,
 				E447997D2C31384A00CA3EB9 /* SignUpViewModel.swift in Sources */,
 				E4F5BFCB2C325063001453E1 /* AppSession.swift in Sources */,
@@ -400,10 +420,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RRW6B7FDKR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "KTT Task/Info.plist";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We want to acess your location";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We want to access your location";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need to access your location in background";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need to access your location in background";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to access your location in background";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -429,10 +451,12 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RRW6B7FDKR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "KTT Task/Info.plist";
-				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We want to acess your location";
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We want to access your location";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We need to access your location in background";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need to access your location in background";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need to access your location in background";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

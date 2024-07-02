@@ -59,7 +59,7 @@ class HomeViewController: UIViewController {
     
     @IBAction func stopLocationBtnPressed(_ sender: Any) {
         if stopLocationBton.titleLabel?.text == "Pause Location"{
-            locationManager.stopTimer()
+            locationManager.resetTimer()
             stopLocationBton.setTitle("Resume", for: .normal)
         }
         else{
@@ -73,7 +73,7 @@ class HomeViewController: UIViewController {
     
     
     @IBAction func signOutBtnPressed(_ sender: Any) {
-        locationManager.stopTimer()
+        locationManager.resetTimer()
         AuthManager.shared.clearUserDefault()
         AppSession.shared.showSignInScreen()
         
@@ -94,7 +94,7 @@ extension HomeViewController: AllUseresDelegate{
         self.currentUserLbl.text = currentUser.email
         AuthManager.shared.clearUserDefault()
         AuthManager.shared.saveToUserDefault(object: CurrentUser(userName: currentUser.userName, email: currentUser.email))
-        locationManager.resetTimer()
+        
         self.selectedCurrentUser = currentUser
 //        self.vm.currentUserCoordinates.removeAll()
 //        self.tableView.reloadData()

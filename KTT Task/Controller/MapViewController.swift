@@ -8,7 +8,7 @@
 import UIKit
 import GoogleMaps
 
-class MapViewController: UIViewController {
+class MapViewController: BaseViewController {
 
     @IBOutlet weak var animateBtn: UIButton!
     @IBOutlet weak var customMapView: CustomMapView!
@@ -77,16 +77,17 @@ class MapViewController: UIViewController {
             if let lat = Double(coordinate.latitude),let long = Double(coordinate.longitude){
                 let marker = GMSMarker(position: CLLocationCoordinate2D(latitude: lat, longitude: long))
                 marker.title = "Point number \(index)"
+                marker.icon = UIImage(named: "pin")
                 marker.map = customMapView.mapView
                 customMapView.mapView.animate(to: GMSCameraPosition(latitude: lat, longitude: long, zoom: 15.0))
                 path.add(CLLocationCoordinate2D(latitude: lat, longitude: long))
             }
         }
       
-        var wayPoints = currentUserCoordinates.map { coordinate in
+        let wayPoints = currentUserCoordinates.map { coordinate in
             "\(coordinate.latitude),\(coordinate.longitude)"
         }
-        print(wayPoints)
+       // print(wayPoints)
         
         Task{
             let result = await vm.drawPolyline(wayPoints:wayPoints)
@@ -101,6 +102,7 @@ class MapViewController: UIViewController {
                 polyline.map = customMapView.mapView
             case .failure(let error):
                 print(error)
+                showMessage(title: "Error", message: error.localizedDescription)
             }
         }
       

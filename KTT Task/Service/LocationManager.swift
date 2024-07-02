@@ -57,55 +57,39 @@ class LocationManager: NSObject{
         return manager
     }()
     
-    func startTimer(){
-        timer?.invalidate()
-            timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(timerFired), userInfo: nil, repeats: true)
-        
-        
-    }
-    @objc func timerFired(){
-       
-        secondsPassed += 1
-       // print("Timer value is \(secondsPassed)")
-    }
-    
     func resetTimer(){
         secondsPassed = 0
-        self.startTimer()
-        
-    }
-    
-    func stopTimer(){
-        self.timer?.invalidate()
-        
-        self.manager.stopUpdatingLocation()
+        manager.stopUpdatingLocation()
     }
     func configureLocationManager(){
-        
+        self.secondsPassed = 0
         let status = manager.authorizationStatus
         switch status{
             case .authorizedAlways:
+
                
-                    self.startTimer()
                 
             
                 manager.startUpdatingLocation()
                 break
             case .authorizedWhenInUse:
                
-                    self.startTimer()
+                  
                 
                 manager.startUpdatingLocation()
                 manager.requestAlwaysAuthorization()
                 break
             case .notDetermined:
+  
                 manager.requestWhenInUseAuthorization()
             
                 break
             case .denied:
+          
                 delegate?.didFailToUpdateLocation(error: LocationManagerError.locationAccessDenined)
                 break
             case .restricted:
+         
                 delegate?.didFailToUpdateLocation(error: LocationManagerError.locationAccessRestricted)
                 break
             
@@ -117,31 +101,31 @@ class LocationManager: NSObject{
 
 extension LocationManager: CLLocationManagerDelegate{
     func locationManagerDidChangeAuthorization(_ manager: CLLocationManager) {
-        //self.configureLocationManager()
         self.configureLocationManager()
     }
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        //self.manager.stopUpdatingLocation()
-        print("SECONDS PASSED \(secondsPassed)")
-        if secondsPassed == 5{
+
+        self.secondsPassed += 1
+        print("SECONDS PASSED IS \(secondsPassed)")
+        if secondsPassed >= 10{
+            
             if let location = locations.first{
-              
-              
-                    
-                    self.delegate?.didUpdateLocation(location: location)
-                    secondsPassed = 0
-               
+                
+                
+                print(location)
+ 
+                self.delegate?.didUpdateLocation(location: location)
+                 secondsPassed = 0
+                
             }
         }
-      
-//        DispatchQueue.main.asyncAfter(deadline: .now() + 15) {
-//            self.manager.startUpdatingLocation()
-//        }
+   
       
        
     }
     func locationManager(_ manager: CLLocationManager, didFailWithError error: Error) {
-        manager.requestWhenInUseAuthorization()
+      
+       
         self.delegate?.didFailToUpdateLocation(error: error)
     }
 }

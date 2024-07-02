@@ -31,7 +31,7 @@ class SignUpVC: UIViewController {
                 }
             }
             else{
-                self.showAlert(title: "Info", message: "Registration sucess") {
+                self.showAlert(title: "Info", message: "Registration success") {
                     //navigate to home
                     if let userName = self.userNameTextField.text, let email = self.emailTextField.text{
                         AuthManager.shared.saveToUserDefault(object: CurrentUser(userName: userName, email: email))
@@ -76,5 +76,8 @@ class SignUpVC: UIViewController {
     }
     
    
-
+    @IBAction func alreadyHaveAnAccountBtnPressed(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
+    
 }

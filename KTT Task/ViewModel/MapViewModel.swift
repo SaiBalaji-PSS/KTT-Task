@@ -12,6 +12,7 @@ enum MapRoutingError: Error{
     case invalidResponse
     case invalidStatusCode(code: Int)
     case decodingError
+    case invalidWayPointCount
     
 }
 
@@ -26,6 +27,8 @@ extension MapRoutingError: LocalizedError{
             return "The response from Google maps server is invalid \(code) \(self.localizedDescription)"
         case .decodingError:
             return "Unable to parse JSON Response \(self.localizedDescription)"
+        case .invalidWayPointCount:
+            return "Minimum two waypoints are needed to calculate the route between them"
         }
     }
 }
@@ -34,6 +37,7 @@ class MapViewModel{
     private var session = URLSession(configuration: .default)
     
     func drawPolyline(wayPoints: [String])async -> Result<String?,Error> {
+        guard wayPoints.count >= 2 else{return .failure(MapRoutingError.invalidWayPointCount)}
         guard let routingURL = self.constructRoutingURL(wayPoints: wayPoints)else{return .failure(MapRoutingError.invalidURL)}
             do{
                 let (data,response) = try await session.data(for: URLRequest(url: routingURL))
@@ -64,16 +68,20 @@ class MapViewModel{
     
     
     func constructRoutingURL(wayPoints:[String]) -> URL?{
-        var temp = wayPoints
-        let startPoint = temp.removeFirst()
-        let endPoint = temp.removeLast()
-        
+  
+            var temp = wayPoints
+            let startPoint = temp.removeFirst()
+            let endPoint = temp.removeLast()
+            
             let BASE_URL = "https://maps.googleapis.com/maps/api/directions/json?"
             let WAYPOINT_STRING = temp.joined(separator: "|")
             let FINAL_URL = "\(BASE_URL)origin=\(startPoint)&destination=\(endPoint)&waypoints=\(WAYPOINT_STRING)&key=AIzaSyA12C22KUn7S-FMdnz4AFuTi7TMukNDhvI"
             print(FINAL_URL)
-        return URL(string: FINAL_URL)
+            return URL(string: FINAL_URL)
+        
+       
         
     }
+    
     
 }
