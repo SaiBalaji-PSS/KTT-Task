@@ -10,6 +10,7 @@
 		E43240CB2C33A2D50057B9AF /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = E43240CA2C33A2D50057B9AF /* GoogleMaps */; };
 		E43240CD2C33A3150057B9AF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43240CC2C33A3150057B9AF /* MapViewController.swift */; };
 		E43240CF2C33A3290057B9AF /* CustomMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43240CE2C33A3290057B9AF /* CustomMapView.swift */; };
+		E43240D12C33B1E30057B9AF /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43240D02C33B1E30057B9AF /* MapViewModel.swift */; };
 		E44799602C3134C800CA3EB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447995F2C3134C800CA3EB9 /* AppDelegate.swift */; };
 		E44799622C3134C800CA3EB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44799612C3134C800CA3EB9 /* SceneDelegate.swift */; };
 		E44799642C3134C800CA3EB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44799632C3134C800CA3EB9 /* ViewController.swift */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		E43240CC2C33A3150057B9AF /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		E43240CE2C33A3290057B9AF /* CustomMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMapView.swift; sourceTree = "<group>"; };
+		E43240D02C33B1E30057B9AF /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 		E447995C2C3134C800CA3EB9 /* KTT Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KTT Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E447995F2C3134C800CA3EB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E44799612C3134C800CA3EB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				E447997C2C31384A00CA3EB9 /* SignUpViewModel.swift */,
 				E4F5BFC42C3245E0001453E1 /* SignInViewModel.swift */,
 				E4F5BFD02C32855A001453E1 /* HomeViewModel.swift */,
+				E43240D02C33B1E30057B9AF /* MapViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				E4F5BFD12C32855A001453E1 /* HomeViewModel.swift in Sources */,
 				E44799602C3134C800CA3EB9 /* AppDelegate.swift in Sources */,
 				E447997F2C31386E00CA3EB9 /* UserModel.swift in Sources */,
+				E43240D12C33B1E30057B9AF /* MapViewModel.swift in Sources */,
 				E44799622C3134C800CA3EB9 /* SceneDelegate.swift in Sources */,
 				E43240CD2C33A3150057B9AF /* MapViewController.swift in Sources */,
 				E4F5BFCF2C326CF1001453E1 /* LocationManager.swift in Sources */,

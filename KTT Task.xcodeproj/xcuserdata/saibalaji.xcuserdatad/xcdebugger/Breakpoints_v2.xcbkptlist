@@ -496,166 +496,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "89CDAE99-EEE0-4A7E-822C-2220A254ABA8"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KTT Task/ViewModel/HomeViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "getAllCoordinatesForGivenUser(user:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "89CDAE99-EEE0-4A7E-822C-2220A254ABA8 - ae8704f27f3883cd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;RealmSwift.Results&lt;KTT_Task.UserModel&gt;&gt;) -&gt; () in KTT_Task.HomeViewModel.getAllCoordinatesForGivenUser(user: KTT_Task.UserModel) -&gt; ()"
-                  moduleName = "KTT Task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/ViewModel/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "868">
-               </Location>
-               <Location
-                  uuid = "89CDAE99-EEE0-4A7E-822C-2220A254ABA8 - ae8704f27f3883cd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;RealmSwift.Results&lt;KTT_Task.UserModel&gt;&gt;) -&gt; () in KTT_Task.HomeViewModel.getAllCoordinatesForGivenUser(user: KTT_Task.UserModel) -&gt; ()"
-                  moduleName = "KTT Task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/ViewModel/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39"
-                  offsetFromSymbolStart = "896">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "2FEF7888-7E46-454A-B067-E56DF913B735"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KTT Task/Controller/HomeViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "setupBinding()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "2FEF7888-7E46-454A-B067-E56DF913B735 - 4d1aa10c36cf8e6a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "KTT_Task.HomeViewController.setupBinding() -&gt; ()"
-                  moduleName = "KTT Task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/Controller/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "53"
-                  endingLineNumber = "53"
-                  offsetFromSymbolStart = "256">
-               </Location>
-               <Location
-                  uuid = "2FEF7888-7E46-454A-B067-E56DF913B735 - 9a56827973e0ef11"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;KTT_Task.Coordinates&gt;) -&gt; () in KTT_Task.HomeViewController.setupBinding() -&gt; ()"
-                  moduleName = "KTT Task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/Controller/HomeViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "53"
-                  endingLineNumber = "53"
-                  offsetFromSymbolStart = "80">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "3AC2CEF7-9EF0-469C-9ECD-88530EC19F1A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KTT Task/ViewModel/HomeViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "40"
-            endingLineNumber = "40"
-            landmarkName = "getAllCoordinatesForGivenUser(user:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "551EFE22-BDF2-44F1-8F29-E0657CD1CBFD"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KTT Task/Controller/HomeViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "5CC0B25F-4E23-4DED-AE51-2BE4968AAC1E"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KTT Task/Controller/HomeViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7EDA74B4-61F4-4026-B811-D016BE25001D"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KTT Task/Controller/HomeViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "configureUI()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "9828910F-6702-42D8-A3A8-F7766E3437F8"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
@@ -696,6 +536,21 @@
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "79"
                   endingLineNumber = "79"
+                  offsetFromSymbolStart = "408">
+               </Location>
+               <Location
+                  uuid = "9828910F-6702-42D8-A3A8-F7766E3437F8 - bb6093623017ab9a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KTT_Task.HomeViewController.didSelectUser(currentUser: KTT_Task.UserModel) -&gt; ()"
+                  moduleName = "KTT Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/Controller/HomeViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "96"
+                  endingLineNumber = "96"
                   offsetFromSymbolStart = "408">
                </Location>
             </Locations>
@@ -746,53 +601,20 @@
                   endingLineNumber = "80"
                   offsetFromSymbolStart = "640">
                </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "9F29F900-C0CF-4CCD-8181-633B587F0620"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "KTT Task/ViewModel/HomeViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "getAllCoordinatesForGivenUser(user:)"
-            landmarkType = "7">
-            <Locations>
                <Location
-                  uuid = "9F29F900-C0CF-4CCD-8181-633B587F0620 - 712660e0c7119ac6"
+                  uuid = "9B9C5125-DBAB-481D-950B-FD39138DAA88 - bb6093623017abb9"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "KTT_Task.HomeViewModel.getAllCoordinatesForGivenUser(user: KTT_Task.UserModel) -&gt; ()"
+                  symbolName = "KTT_Task.HomeViewController.didSelectUser(currentUser: KTT_Task.UserModel) -&gt; ()"
                   moduleName = "KTT Task"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/ViewModel/HomeViewModel.swift"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/Controller/HomeViewController.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "100">
-               </Location>
-               <Location
-                  uuid = "9F29F900-C0CF-4CCD-8181-633B587F0620 - ae8704f27f3880b4"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;RealmSwift.Results&lt;KTT_Task.UserModel&gt;&gt;) -&gt; () in KTT_Task.HomeViewModel.getAllCoordinatesForGivenUser(user: KTT_Task.UserModel) -&gt; ()"
-                  moduleName = "KTT Task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/ViewModel/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "72">
+                  startingLineNumber = "97"
+                  endingLineNumber = "97"
+                  offsetFromSymbolStart = "640">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -800,80 +622,411 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B00EA432-BD82-45BA-BD62-E762F4979055"
+            uuid = "5F862612-955F-475C-ABE4-5A796B691700"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KTT Task/ViewModel/HomeViewModel.swift"
+            filePath = "KTT Task/ViewModel/MapViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "33"
-            endingLineNumber = "33"
-            landmarkName = "getAllCoordinatesForGivenUser(user:)"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "constructRoutingURL(wayPoints:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "B00EA432-BD82-45BA-BD62-E762F4979055 - ae8704f27f38800b"
+                  uuid = "5F862612-955F-475C-ABE4-5A796B691700 - a9b912d8d02447ae"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Optional&lt;RealmSwift.Results&lt;KTT_Task.UserModel&gt;&gt;) -&gt; () in KTT_Task.HomeViewModel.getAllCoordinatesForGivenUser(user: KTT_Task.UserModel) -&gt; ()"
+                  symbolName = "KTT_Task.MapViewModel.constructRoutingURL(wayPoints: Swift.Array&lt;Swift.String&gt;) -&gt; ()"
                   moduleName = "KTT Task"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/ViewModel/HomeViewModel.swift"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/ViewModel/MapViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "968">
+               </Location>
+               <Location
+                  uuid = "5F862612-955F-475C-ABE4-5A796B691700 - a6bb296ca84c0a04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KTT_Task.MapViewModel.constructRoutingURL(wayPoints: Swift.Array&lt;Swift.String&gt;) -&gt; Swift.Optional&lt;Foundation.URL&gt;"
+                  moduleName = "KTT Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/ViewModel/MapViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "74"
+                  endingLineNumber = "74"
+                  offsetFromSymbolStart = "972">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "910B4C2E-20C6-4EC9-ACC9-EC85BA8B88C1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KTT Task/Controller/MapViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "populateMap()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "910B4C2E-20C6-4EC9-ACC9-EC85BA8B88C1 - 85848cb8989f02d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KTT_Task.MapViewController.populateMap() -&gt; ()"
+                  moduleName = "KTT Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/Controller/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "2464">
+               </Location>
+               <Location
+                  uuid = "910B4C2E-20C6-4EC9-ACC9-EC85BA8B88C1 - a2e2910be3dcc03a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[2] = Value Promoted from Box&gt; of closure #2 @Sendable () async -&gt; () in KTT_Task.MapViewController.populateMap() -&gt; ()"
+                  moduleName = "KTT Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/Controller/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "910B4C2E-20C6-4EC9-ACC9-EC85BA8B88C1 - c6299c4d818e44fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for function signature specialization &lt;Arg[2] = Value Promoted from Box&gt; of closure #2 @Sendable () async -&gt; () in KTT_Task.MapViewController.populateMap() -&gt; ()"
+                  moduleName = "KTT Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/Controller/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  uuid = "910B4C2E-20C6-4EC9-ACC9-EC85BA8B88C1 - 85848cb8989f02d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "KTT_Task.MapViewController.populateMap() -&gt; ()"
+                  moduleName = "KTT Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/Controller/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "2420">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF946FA2-6D6F-4773-84B5-D93000DEEB28"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KTT Task/ViewModel/MapViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "constructRoutingURL(wayPoints:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F26D628A-80B0-425B-85D1-2CE2A48A0D1C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KTT Task/Controller/MapViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "populateMap()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F26D628A-80B0-425B-85D1-2CE2A48A0D1C - 17411fff1e8c07c5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for function signature specialization &lt;Arg[2] = Value Promoted from Box&gt; of closure #2 @Sendable () async -&gt; () in KTT_Task.MapViewController.populateMap() -&gt; ()"
+                  moduleName = "KTT Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/Controller/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "79"
+                  endingLineNumber = "79"
+                  offsetFromSymbolStart = "744">
+               </Location>
+               <Location
+                  uuid = "F26D628A-80B0-425B-85D1-2CE2A48A0D1C - 17411fff1e8c07e2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for function signature specialization &lt;Arg[2] = Value Promoted from Box&gt; of closure #2 @Sendable () async -&gt; () in KTT_Task.MapViewController.populateMap() -&gt; ()"
+                  moduleName = "KTT Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/Controller/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "612">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1836E02B-3E1C-4FED-A6A1-1B2C9EF298A8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KTT Task/Controller/MapViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "86"
+            endingLineNumber = "86"
+            landmarkName = "populateMap()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1836E02B-3E1C-4FED-A6A1-1B2C9EF298A8 - 17411fff1e8c06cd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for function signature specialization &lt;Arg[2] = Value Promoted from Box&gt; of closure #2 @Sendable () async -&gt; () in KTT_Task.MapViewController.populateMap() -&gt; ()"
+                  moduleName = "KTT Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/Controller/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "87"
+                  endingLineNumber = "87"
+                  offsetFromSymbolStart = "1464">
+               </Location>
+               <Location
+                  uuid = "1836E02B-3E1C-4FED-A6A1-1B2C9EF298A8 - 17411fff1e8c06ea"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for function signature specialization &lt;Arg[2] = Value Promoted from Box&gt; of closure #2 @Sendable () async -&gt; () in KTT_Task.MapViewController.populateMap() -&gt; ()"
+                  moduleName = "KTT Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/Controller/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "476">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0303C5AA-C938-4ECF-962B-BAE18238A608"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KTT Task/Controller/MapViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "populateMap()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0303C5AA-C938-4ECF-962B-BAE18238A608 - 17411fff1e8c0020"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for function signature specialization &lt;Arg[2] = Value Promoted from Box&gt; of closure #2 @Sendable () async -&gt; () in KTT_Task.MapViewController.populateMap() -&gt; ()"
+                  moduleName = "KTT Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/Controller/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "0303C5AA-C938-4ECF-962B-BAE18238A608 - 17411fff1e8c0020"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for function signature specialization &lt;Arg[2] = Value Promoted from Box&gt; of closure #2 @Sendable () async -&gt; () in KTT_Task.MapViewController.populateMap() -&gt; ()"
+                  moduleName = "KTT Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/Controller/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "536">
+               </Location>
+               <Location
+                  uuid = "0303C5AA-C938-4ECF-962B-BAE18238A608 - c6299c4d818e4403"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for function signature specialization &lt;Arg[2] = Value Promoted from Box&gt; of closure #2 @Sendable () async -&gt; () in KTT_Task.MapViewController.populateMap() -&gt; ()"
+                  moduleName = "KTT Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/Controller/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "0303C5AA-C938-4ECF-962B-BAE18238A608 - 4c2e9515f06467d4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for function signature specialization &lt;Arg[2] = Value Promoted from Box&gt; of closure #2 @Sendable () async -&gt; () in KTT_Task.MapViewController.populateMap() -&gt; ()"
+                  moduleName = "KTT Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/Controller/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "0303C5AA-C938-4ECF-962B-BAE18238A608 - 17411fff1e8c0041"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for function signature specialization &lt;Arg[2] = Value Promoted from Box&gt; of closure #2 @Sendable () async -&gt; () in KTT_Task.MapViewController.populateMap() -&gt; ()"
+                  moduleName = "KTT Task"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/Controller/MapViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "75"
+                  endingLineNumber = "75"
                   offsetFromSymbolStart = "160">
                </Location>
-               <Location
-                  uuid = "B00EA432-BD82-45BA-BD62-E762F4979055 - 7c830e22209380e"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (KTT_Task.UserModel) -&gt; Swift.Bool in closure #1 (Swift.Optional&lt;RealmSwift.Results&lt;KTT_Task.UserModel&gt;&gt;) -&gt; () in KTT_Task.HomeViewModel.getAllCoordinatesForGivenUser(user: KTT_Task.UserModel) -&gt; ()"
-                  moduleName = "KTT Task"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/saibalaji/Documents/KTT%20Task/KTT%20Task/ViewModel/HomeViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "34"
-                  endingLineNumber = "34"
-                  offsetFromSymbolStart = "68">
-               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "6E2945CD-46FC-48FD-86FD-EF6EAC0D4D7C"
+            uuid = "B2D2F86F-3868-4077-BFC1-74814A2ACC49"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KTT Task/ViewModel/HomeViewModel.swift"
+            filePath = "KTT Task/ViewModel/MapViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "getAllCoordinatesForGivenUser(user:)"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "drawPolyline(wayPoints:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "EDDA03A4-7070-4771-B985-15A4C3BDC9A0"
+            uuid = "6BC192F1-91DE-45F3-A9CC-A9DDA879724B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "KTT Task/ViewModel/HomeViewModel.swift"
+            filePath = "KTT Task/ViewModel/MapViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "38"
-            endingLineNumber = "38"
-            landmarkName = "getAllCoordinatesForGivenUser(user:)"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "drawPolyline(wayPoints:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2376278F-EDDC-41B9-BE9E-ACAF9F634B4E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KTT Task/ViewModel/MapViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "drawPolyline(wayPoints:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1A5B0329-38A6-4DBD-8216-04A9561B38D4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KTT Task/ViewModel/MapViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "drawPolyline(wayPoints:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4A6E751A-8C32-49B1-959F-CAF8B8863087"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "KTT Task/ViewModel/MapViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "drawPolyline(wayPoints:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -140,6 +140,7 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource{
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MapViewController") as? MapViewController{
+            vc.currentUserCoordinates = self.vm.currentUserCoordinates
             self.present(vc, animated: true)
         }
     }

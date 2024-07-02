@@ -300,16 +300,34 @@
                                 <rect key="frame" x="16" y="59" width="361" height="432"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ojv-ic-6nn">
+                                <rect key="frame" x="16" y="768" width="361" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="7ZC-5C-4jQ"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Animate"/>
+                                <connections>
+                                    <action selector="animateBtnPressed:" destination="HR7-gd-his" eventType="touchUpInside" id="4Ba-vK-ULd"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rE1-3b-UvZ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="rE1-3b-UvZ" firstAttribute="trailing" secondItem="Ojv-ic-6nn" secondAttribute="trailing" constant="16" id="4hp-sd-VHV"/>
+                            <constraint firstItem="Ojv-ic-6nn" firstAttribute="bottom" secondItem="rE1-3b-UvZ" secondAttribute="bottom" id="Eqf-XV-EIr"/>
                             <constraint firstItem="pVK-sL-737" firstAttribute="top" secondItem="rE1-3b-UvZ" secondAttribute="top" id="Mws-S2-cHc"/>
                             <constraint firstItem="rE1-3b-UvZ" firstAttribute="bottom" secondItem="pVK-sL-737" secondAttribute="bottom" constant="327" id="XVJ-bT-1ve"/>
                             <constraint firstItem="rE1-3b-UvZ" firstAttribute="trailing" secondItem="pVK-sL-737" secondAttribute="trailing" constant="16" id="j0f-40-dc3"/>
                             <constraint firstItem="pVK-sL-737" firstAttribute="leading" secondItem="rE1-3b-UvZ" secondAttribute="leading" constant="16" id="ozg-Zd-tcE"/>
+                            <constraint firstItem="Ojv-ic-6nn" firstAttribute="leading" secondItem="rE1-3b-UvZ" secondAttribute="leading" constant="16" id="xhV-w6-oHw"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="animateBtn" destination="Ojv-ic-6nn" id="m2V-Nw-96B"/>
+                        <outlet property="customMapView" destination="pVK-sL-737" id="NxF-K4-lqF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RAO-yB-2fv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
