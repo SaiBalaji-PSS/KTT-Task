@@ -97,8 +97,8 @@ class MapViewController: BaseViewController {
                 
                 let path = GMSPath(fromEncodedPath: response ?? "")
                 let polyline = GMSPolyline(path: path)
-                polyline.strokeColor = UIColor.blue
-                polyline.strokeWidth = 2
+                polyline.strokeColor = UIColor.green
+                polyline.strokeWidth = 8
                 polyline.map = customMapView.mapView
             case .failure(let error):
                 print(error)

@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         RealmService.shared.openRealmFile { error  in
             print(error)
         }
-        GMSServices.provideAPIKey("AIzaSyA12C22KUn7S-FMdnz4AFuTi7TMukNDhvI")
+        GMSServices.provideAPIKey(Constants.GOOGLE_MAPS_API_KEY)
         return true
     }
 

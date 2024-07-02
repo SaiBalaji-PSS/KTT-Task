@@ -86,6 +86,24 @@ class HomeViewController: UIViewController {
             self.present(vc, animated: true)
         }
     }
+    
+    func showMessage(title: String,message: String){
+        var avc = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        avc.addAction(UIAlertAction(title: "Ok", style: .default,handler: { _ in
+            if message.contains("privacy"){
+                guard let settingsUrl = URL(string: UIApplication.openSettingsURLString) else {
+                           return
+                       }
+
+                       if UIApplication.shared.canOpenURL(settingsUrl) {
+                           UIApplication.shared.open(settingsUrl, completionHandler: { (success) in
+                               print("Settings opened: \(success)")
+                           })
+                       }
+            }
+        }))
+        self.present(avc, animated: true)
+    }
 }
 
 
@@ -123,6 +141,9 @@ extension HomeViewController: LocationManagerDelegate{
     }
     
     func didFailToUpdateLocation(error: Error?) {
+        if let error{
+            self.showMessage(title: "Info", message: error.localizedDescription)
+        }
         
     }
     
