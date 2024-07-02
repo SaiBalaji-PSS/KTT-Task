@@ -14,10 +14,15 @@ class MapViewController: UIViewController {
     @IBOutlet weak var customMapView: CustomMapView!
     var currentUserCoordinates = [Coordinates]()
     
+    @IBOutlet weak var coordinateLbl: UILabel!
+    @IBOutlet weak var addressLbl: UILabel!
+    
     var path = GMSMutablePath()
     var vm = MapViewModel()
     var timer = Timer()
     var currentCoordinateIndex = 0
+    let geocoder = GMSGeocoder()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -52,6 +57,17 @@ class MapViewController: UIViewController {
         if let lat = Double(self.currentUserCoordinates[currentCoordinateIndex].latitude), let long = Double(self.currentUserCoordinates[currentCoordinateIndex].longitude){
             self.currentCoordinateIndex += 1
             self.customMapView.mapView.animate(to: GMSCameraPosition(latitude: lat, longitude: long, zoom: 15.0))
+            self.coordinateLbl.text = "\(lat),\(long)"
+            geocoder.reverseGeocodeCoordinate(CLLocationCoordinate2D(latitude: lat, longitude: long)) { response , error in
+                if let error{
+                    print(error)
+                }
+                if let firstResult = response?.firstResult(){
+                    
+                    self.addressLbl.text =  (firstResult.subLocality ?? "")+" "+(firstResult.locality ?? "")  + " " + (firstResult.country ?? "")
+                }
+            }
+            
         }
 
         
@@ -71,6 +87,7 @@ class MapViewController: UIViewController {
             "\(coordinate.latitude),\(coordinate.longitude)"
         }
         print(wayPoints)
+        
         Task{
             let result = await vm.drawPolyline(wayPoints:wayPoints)
             switch result {
