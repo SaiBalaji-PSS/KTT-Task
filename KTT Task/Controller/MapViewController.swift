@@ -50,7 +50,7 @@ class MapViewController: BaseViewController {
         timer.invalidate()
     }
     @objc func animateToPoint(){
-        if self.currentCoordinateIndex >= (self.currentUserCoordinates.count - 1){
+        if self.currentCoordinateIndex > (self.currentUserCoordinates.count - 1){
             self.stopAnimation()
             return
         }

@@ -107,7 +107,7 @@ extension LocationManager: CLLocationManagerDelegate{
 
         self.secondsPassed += 1
         print("SECONDS PASSED IS \(secondsPassed)")
-        if secondsPassed >= 10{
+        if secondsPassed >= 30{
             
             if let location = locations.first{
                 
