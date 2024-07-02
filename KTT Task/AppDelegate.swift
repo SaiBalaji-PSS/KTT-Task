@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import GoogleMaps
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         RealmService.shared.openRealmFile { error  in
             print(error)
         }
+        GMSServices.provideAPIKey("AIzaSyA12C22KUn7S-FMdnz4AFuTi7TMukNDhvI")
         return true
     }
 

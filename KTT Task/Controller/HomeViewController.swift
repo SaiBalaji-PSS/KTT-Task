@@ -13,6 +13,7 @@ class HomeViewController: UIViewController {
 
     @IBOutlet weak var currentUserLbl: UILabel!
     
+    @IBOutlet weak var stopLocationBton: UIButton!
     @IBOutlet weak var tableView: UITableView!
     private var vm = HomeViewModel()
     private var selectedCurrentUser: UserModel?
@@ -54,6 +55,22 @@ class HomeViewController: UIViewController {
             
         }
     }
+    
+    
+    @IBAction func stopLocationBtnPressed(_ sender: Any) {
+        if stopLocationBton.titleLabel?.text == "Pause Location"{
+            locationManager.stopTimer()
+            stopLocationBton.setTitle("Resume", for: .normal)
+        }
+        else{
+            locationManager.configureLocationManager()
+            stopLocationBton.setTitle("Pause Location", for: .normal)
+            
+        }
+        
+        
+    }
+    
     
     @IBAction func signOutBtnPressed(_ sender: Any) {
         locationManager.stopTimer()
@@ -120,5 +137,10 @@ extension HomeViewController: UITableViewDelegate, UITableViewDataSource{
         let cell = tableView.dequeueReusableCell(withIdentifier: "CELL", for: indexPath)
         cell.textLabel?.text = "(\(self.vm.currentUserCoordinates[indexPath.row].latitude),\(self.vm.currentUserCoordinates[indexPath.row].longitude))"
         return cell
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        if let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MapViewController") as? MapViewController{
+            self.present(vc, animated: true)
+        }
     }
 }

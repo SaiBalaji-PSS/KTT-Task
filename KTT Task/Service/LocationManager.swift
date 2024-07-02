@@ -61,6 +61,7 @@ class LocationManager: NSObject{
         timer?.invalidate()
             timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(timerFired), userInfo: nil, repeats: true)
         
+        
     }
     @objc func timerFired(){
        
@@ -76,6 +77,7 @@ class LocationManager: NSObject{
     
     func stopTimer(){
         self.timer?.invalidate()
+        
         self.manager.stopUpdatingLocation()
     }
     func configureLocationManager(){

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E43240CB2C33A2D50057B9AF /* GoogleMaps in Frameworks */ = {isa = PBXBuildFile; productRef = E43240CA2C33A2D50057B9AF /* GoogleMaps */; };
+		E43240CD2C33A3150057B9AF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43240CC2C33A3150057B9AF /* MapViewController.swift */; };
+		E43240CF2C33A3290057B9AF /* CustomMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43240CE2C33A3290057B9AF /* CustomMapView.swift */; };
 		E44799602C3134C800CA3EB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447995F2C3134C800CA3EB9 /* AppDelegate.swift */; };
 		E44799622C3134C800CA3EB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44799612C3134C800CA3EB9 /* SceneDelegate.swift */; };
 		E44799642C3134C800CA3EB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E44799632C3134C800CA3EB9 /* ViewController.swift */; };
@@ -28,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E43240CC2C33A3150057B9AF /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E43240CE2C33A3290057B9AF /* CustomMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMapView.swift; sourceTree = "<group>"; };
 		E447995C2C3134C800CA3EB9 /* KTT Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KTT Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E447995F2C3134C800CA3EB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E44799612C3134C800CA3EB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -54,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E43240CB2C33A2D50057B9AF /* GoogleMaps in Frameworks */,
 				E44799752C3134F100CA3EB9 /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -106,6 +112,7 @@
 		E44799772C31378300CA3EB9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E43240CE2C33A3290057B9AF /* CustomMapView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -127,6 +134,7 @@
 				E447997A2C3137E300CA3EB9 /* SignUpVC.swift */,
 				E4F5BFC62C324D55001453E1 /* HomeViewController.swift */,
 				E4F5BFC82C324EED001453E1 /* AllUsersVC.swift */,
+				E43240CC2C33A3150057B9AF /* MapViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -160,6 +168,7 @@
 			name = "KTT Task";
 			packageProductDependencies = (
 				E44799742C3134F100CA3EB9 /* RealmSwift */,
+				E43240CA2C33A2D50057B9AF /* GoogleMaps */,
 			);
 			productName = "KTT Task";
 			productReference = E447995C2C3134C800CA3EB9 /* KTT Task.app */;
@@ -191,6 +200,7 @@
 			mainGroup = E44799532C3134C800CA3EB9;
 			packageReferences = (
 				E44799732C3134F100CA3EB9 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				E43240C92C33A2D50057B9AF /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
 			);
 			productRefGroup = E447995D2C3134C800CA3EB9 /* Products */;
 			projectDirPath = "";
@@ -221,6 +231,7 @@
 			files = (
 				E447997B2C3137E300CA3EB9 /* SignUpVC.swift in Sources */,
 				E4F5BFCD2C325350001453E1 /* AuthManager.swift in Sources */,
+				E43240CF2C33A3290057B9AF /* CustomMapView.swift in Sources */,
 				E44799642C3134C800CA3EB9 /* ViewController.swift in Sources */,
 				E44799822C3139C900CA3EB9 /* RealmService.swift in Sources */,
 				E4F5BFC92C324EED001453E1 /* AllUsersVC.swift in Sources */,
@@ -232,6 +243,7 @@
 				E44799602C3134C800CA3EB9 /* AppDelegate.swift in Sources */,
 				E447997F2C31386E00CA3EB9 /* UserModel.swift in Sources */,
 				E44799622C3134C800CA3EB9 /* SceneDelegate.swift in Sources */,
+				E43240CD2C33A3150057B9AF /* MapViewController.swift in Sources */,
 				E4F5BFCF2C326CF1001453E1 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -459,6 +471,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		E43240C92C33A2D50057B9AF /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
 		E44799732C3134F100CA3EB9 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/realm/realm-swift.git";
@@ -470,6 +490,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		E43240CA2C33A2D50057B9AF /* GoogleMaps */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E43240C92C33A2D50057B9AF /* XCRemoteSwiftPackageReference "ios-maps-sdk" */;
+			productName = GoogleMaps;
+		};
 		E44799742C3134F100CA3EB9 /* RealmSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E44799732C3134F100CA3EB9 /* XCRemoteSwiftPackageReference "realm-swift" */;
